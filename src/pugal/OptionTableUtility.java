@@ -27,11 +27,11 @@ public class OptionTableUtility {
 		
 		int colsLen = 4;
 		int rowsLen = 30;
-		int currentPrice = 8700;
+		int currentPrice = 11300;
 		int step=50;
 		
 		//Used only when row size is 1
-		int givenPrice=8700;
+		int givenPrice=11300;
 		
 		if(rowsLen<=0){
 			System.exit(0);
@@ -149,8 +149,8 @@ return rowsArr;
 			 list.add(new OptionTrade(BUY_TRADE,PUT_OPTION,8100 , 8,8)); */
 			
 			
-			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION,9000 , 260,260));  
-			//list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,8200 , 130,130));
+			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION,11000 , 300,300));  
+			list.add(new OptionTrade(BUY_TRADE,CALL_OPTION,11500 , 26,26));
 			
 			//list.add(new OptionTrade(SELL_TRADE,CALL_OPTION,8000 , 365,365));
 			//list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,8300 , 100,100));

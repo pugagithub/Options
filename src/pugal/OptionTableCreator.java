@@ -88,7 +88,7 @@ public class OptionTableCreator extends HttpServlet {
 		}
 		
 		
-		request.setAttribute("Previous Balance", "115000");
+		request.setAttribute("Previous Balance", "0");
 		request.setAttribute("staticTradedList", tradeList);
 		request.setAttribute("netPremium", netPremium);
 		request.setAttribute("netPremiumText", netPremiumText);
