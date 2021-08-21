@@ -58,7 +58,7 @@ public class OptionTableCreator extends HttpServlet {
 		int netPremium=0;
 		String netPremiumText="0";
 		String tradeReversalExpenseText="0"; 
-		int lotSize=75;
+		int lotSize=Integer.parseInt(bundle.getString("lotSize"));
 		int qty=Integer.parseInt(bundle.getString("qty"));     
 		int sellQty=0;
 		int totalBuyPremium=0;
