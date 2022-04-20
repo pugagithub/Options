@@ -27,10 +27,10 @@ public class OptionTableUtility {
 		public static int[] getExpiryList(){
 		
 		int colsLen = 4;
-		int rowsLen = 60; // Change this for row count 
+		int rowsLen = 100; // Change this for row count 
 		ResourceBundle bundle = ResourceBundle.getBundle("data");
 		int currentPrice = Integer.parseInt(bundle.getString("currentPrice")) ;
-		int step=50;
+		int step=100;  // either 50 or 100
 		
 		//Used only when row size is 1
 		int givenPrice=Integer.parseInt(bundle.getString("currentPrice"));
@@ -164,6 +164,16 @@ return rowsArr;
 			
 			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION, 17300, 485,485));  
 			list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,16800 , 345,320));
+			
+			//Buy Option
+			list.add(new OptionTrade(BUY_TRADE,CALL_OPTION, 19000, 48,48));  
+			list.add(new OptionTrade(BUY_TRADE,PUT_OPTION,15000 , 48,48));
+			
+			//Buy Option
+			list.add(new OptionTrade(BUY_TRADE,CALL_OPTION, 19000, 48,48));  
+			list.add(new OptionTrade(BUY_TRADE,PUT_OPTION,15000 , 48,48));
+			
+			
 			
 			
 			
