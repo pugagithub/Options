@@ -27,7 +27,7 @@ public class OptionTableUtility {
 		public static int[] getExpiryList(){
 		
 		int colsLen = 4;
-		int rowsLen = 30;
+		int rowsLen = 60; // Change this for row count 
 		ResourceBundle bundle = ResourceBundle.getBundle("data");
 		int currentPrice = Integer.parseInt(bundle.getString("currentPrice")) ;
 		int step=50;
@@ -151,8 +151,21 @@ return rowsArr;
 			 list.add(new OptionTrade(BUY_TRADE,PUT_OPTION,8100 , 8,8)); */
 			
 			
-			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION,16300 , 177,177));  
-			list.add(new OptionTrade(BUY_TRADE,CALL_OPTION,16500 , 62,62));
+			//list.add(new OptionTrade(SELL_TRADE,CALL_OPTION,17100 , 600,600));  
+			//list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,17100 , 450,450));
+			
+			//list.add(new OptionTrade(SELL_TRADE,CALL_OPTION, 18000, 200,200));  
+			//list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,16000 , 150,150));
+			
+			
+
+			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION, 17300, 485,485));  
+			list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,16800 , 345,320));
+			
+			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION, 17300, 485,485));  
+			list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,16800 , 345,320));
+			
+			
 			
 			//list.add(new OptionTrade(SELL_TRADE,CALL_OPTION,8000 , 365,365));
 			//list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,8300 , 100,100));
