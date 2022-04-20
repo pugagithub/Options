@@ -159,19 +159,21 @@ return rowsArr;
 			
 			
 
-			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION, 17300, 485,485));  
-			list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,16800 , 345,320));
+			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION, 17100, 600,600));  
+			list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,17100 , 450,450));
 			
-			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION, 17300, 485,485));  
-			list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,16800 , 345,320));
+			list.add(new OptionTrade(SELL_TRADE,CALL_OPTION, 17100, 600,600));  
+			list.add(new OptionTrade(SELL_TRADE,PUT_OPTION,17100 , 450,450));
 			
-			//Buy Option
-			list.add(new OptionTrade(BUY_TRADE,CALL_OPTION, 19000, 48,48));  
-			list.add(new OptionTrade(BUY_TRADE,PUT_OPTION,15000 , 48,48));
+			
 			
 			//Buy Option
 			list.add(new OptionTrade(BUY_TRADE,CALL_OPTION, 19000, 48,48));  
 			list.add(new OptionTrade(BUY_TRADE,PUT_OPTION,15000 , 48,48));
+			
+			//Buy Option
+			list.add(new OptionTrade(BUY_TRADE,CALL_OPTION, 20000, 13,13));  
+			list.add(new OptionTrade(BUY_TRADE,PUT_OPTION,14000 , 16,16));
 			
 			
 			
